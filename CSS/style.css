@@ -1,0 +1,19 @@
+tr, th {
+    border: 1px solid darkred;
+     height: 10px;
+     width: 40px;
+     align-content: center;
+     text-align: center;
+     border-collapse: collapse;
+     padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    border-spacing: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+    /*Adds smooth scrolling instead of snapping to element*/
+  }
+
