@@ -125,6 +125,7 @@
             <a href="#course">Kursus</a> |
             <a href="#call">Kontak</a> |
             <a href="#form">Form</a>
+            <a href="jadwal.html">Jadwal KulYeah</a>
         </nav>
     
         <h2><b>About This Page</b></h2>
@@ -148,32 +149,33 @@
         <th>6 Weeks</th>
     </tr>
     </table></section>
-        <h2><b>Skills</b></h2>
+        <!-- <h2><b>Skills</b></h2>
         
         <ul>
             <li>Loyal</li>
             <li>Budget-Friendly</li>
             <li>Can Be Payed with Food</li>
-        </ul>
+        </ul> -->
     
         <section id="call"><h2><b>Call Me</b></h2>
         <form>
           <div>
             <ul>
               <label>Name</label>
-              <input>
-            </ul>
-            <ul>
+              <input placeholder="klo gk punya kasi '-' aj"><br>
+        
               <label>Email</label>
-              <input>
+              <input placeholder="don't forget the '@'" required>
+              <button type="submit">Submit</button>
             </ul>
+            <textarea id="script" name="ddd" rows="3" cols="40">express your concerns</textarea>
           </div>
         </form>
         </p></section>
 
         <section id="form">
-          <h2>Sign This First <sub>plz</sub></h2>
-          <form>
+          <h2><b>Sign This First</b><sub>...plz</sub></h2>
+          <form><div>
             <h5>Your Course Choice?</h5>
             <input type="radio" id="html" name="course">
             <label for="html">Technology</label>
@@ -190,21 +192,92 @@
             <ul>
             <input type="checkbox" id="html" name="course">
             <label for="html">Parents said so</label>
-          </ul>
+          </ul></div>
 
           <ul>
             <input type="checkbox" id="html" name="course">
             <label for="html">idk why i choose this either</label>
           </ul>
-          <ul>
+
             <label>Email</label>
-            <input>
-          </ul>
+            <input placeholder="again" required>
+            <button type="submit">Submit</button><br>
         
             <label for="date">Date of Birth:</label>
             <input type="date" id="birth"name="birthday">
-            <textarea id="w3review" name="w3review" rows="2" cols="50">for what all these question? TO HACK YOUR DATABASE SIKE
+
+            <h5 style="font-size: large;">Was My Web Good?</h5>
+        <input type="radio" id="html" name="course">
+        <label style="cursor: pointer;">A. Yes</label>
+
+        <input type="radio" id="html" name="course">
+        <label for="html">B. Very</label>
+
+        <input type="radio" id="html" name="course">
+        <label for="html">C. Absolutely</label>
+
+
+        <!-- CHECKBOX -->
+         <div>
+        <h5>What Makes You Think My Web is Good?</h5>
+        <ul><input type="checkbox" id="html" name="course">
+        <label for="html">Yg bikin webnya cantik</label></ul>
+        <ul>
+        <input type="checkbox" id="html" name="course">
+        <label for="html">Good Web Design</label><br>
+          </ul>
+          
+        <h5 style="font-size: large;">btw dah liat jadwal kulyeah blom sebelum daftar?</h5>
+        <input type="radio" id="html" name="course">
+        <label style="cursor: pointer;">A. Yes</label>
+        <ul>
+        <input type="radio" id="html" name="course">
+        <label for="html">B. No</label>
+      </ul>
+        <h5>Gk nyeselkan daftar sini?</h5>
+            <ul><input type="radio" id="html" name="course">
+            <label for="html">Nyesal kk</label></ul>
+            <ul>
+            <input type="radio" id="html" name="course">
+            <label for="html">Urusan nanti aj deh kak</label>
+          </ul>
+          <ul>
+            <input type="radio" id="html" name="course">
+            <label for="html">Gk dong, I'm two steps ahead</label>
+          </ul>
+
+          <h5>Apa yg kamu harapkan dari kuliah?</h5>
+        <ul><input type="checkbox" id="html" name="course">
+        <label for="html">Ketemu pacar masa depan aq</label></ul>
+        <ul>
+        <input type="checkbox" id="html" name="course">
+        <label for="html">Dosennnya frenli</label><br>
+          </ul>
+
+        <ul>
+          <input type="checkbox" id="html" name="course">
+          <label for="html">Bisa nginap di gedung</label><br>
+        </ul>
+
+        <ul>
+          <input type="checkbox" id="html" name="course">
+          <label for="html">Ga dipalak kating</label><br>
+        </ul>
+
+        <ul>
+          <input type="checkbox" id="html" name="course">
+          <label for="html">Menanti hidup baru</label><br>
+        </ul>
+        </div>
+
+      </ul>
+            <textarea id="w3review" name="w3review" rows="2" cols="50">for what all these question? ga taw
               </textarea>
+        <button type="reset" style="border-color: red;">Finish?</button><br>
+
+        <a href="jadwal.html">
+        <button type="submit">Finish</button></a>
+
           </form>
         </section>
     </body>
